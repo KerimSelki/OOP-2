@@ -27,6 +27,11 @@ namespace OOP_2
 
             Musteri musteri3 = new GerçekMusteri();
             Musteri musteri4 = new TüzelMüşteri();
+
+            MusteriManager musteriManager = new MusteriManager();
+
+            musteriManager.Ekle(musteri1);
+            musteriManager.Ekle(musteri2);
         }
     }
 }
